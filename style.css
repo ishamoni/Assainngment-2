@@ -1,0 +1,135 @@
+*{
+    margin: 20px;
+}
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    background-color: #e8dada;
+    width: 1500px;
+    height: 2043px;
+
+}
+
+.fast-sections{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #5f5a5a;
+    border-radius: 40px;
+    padding-right: 150px;
+
+    
+
+
+    
+}
+.fast section,button{   margin: 10px;
+    color: #d5cfcf;
+}
+.blog-button{
+    background-color:#DD0000 ;
+    border-radius: 8px;
+    padding: 10px 25px; 
+    width: 252px;
+    height: 59px;
+}
+section{display: flex;
+    justify-content: center;
+    background-color: #161616;
+    width: 312px;
+    height:312px ;
+    margin: 20px;
+    border-radius: 10px;
+}
+article{
+    margin: 10px;
+    box-shadow: 1px 1px 10px 1px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.blog{
+    
+    border-radius: 4px;
+
+}
+
+.blog-img{
+    display: flex;
+    justify-content: space-around;
+}
+.laa-group{
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin-left: 15px;
+    padding:3px 10px 1px ;
+    border-radius: 10px;
+  
+}
+.laa-group,a{
+    text-decoration: none;
+    }
+.laa-groups{
+    background-color: #d71616;
+}
+
+.sections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.Transfer{
+    color: #161616;
+    margin-top: 35px;
+    font-size: 24px;
+
+    padding:5px 10px 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+h3{
+    font-size: 20px;
+}
+.clock,i{
+    margin: right 40px;
+    padding: 0px;
+}
+.cantact-us{
+    
+    justify-content: center;
+}
+.goal{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    margin:11px;
+}
+footer,a{
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+    color: #ede4e4;
+    font-size: 24px;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+@media(max-width:688px) {
+
+   .sections,footer{
+        grid-template-columns:repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        grid-gap: 20px;
+        max-width: 100px;
+        margin-left: 140px;
+        margin-bottom: 40px;
+    }
+}
